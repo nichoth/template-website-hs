@@ -1,7 +1,7 @@
 {
   "name": "@nichoth/template-website-hs",
   "description": "A template for static websites with",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "bin": {
     "wshs": "template-website-hs.sh"
   },
