@@ -1,1 +1,22 @@
-{}
+{
+  "name": "@nichoth/template-website-hs",
+  "description": "A template for static websites with",
+  "version": "0.0.0",
+  "bin": { "wshs": "template-website-hs.sh" },
+  "main": "template-website.sh",
+  "scripts": {
+    "postinstall":"mkdir -p $HOME/.template-website-hs && cp -f ./src/* $HOME/.template-website-hs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nichoth/template-website-hs.git"
+  },
+  "author": "Nick Thomas <nichoth@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nichoth/template-website-hs/issues"
+  },
+  "homepage": "https://github.com/nichoth/template-website-hs#readme"
+}
+

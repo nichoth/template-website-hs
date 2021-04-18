@@ -1,9 +1,9 @@
 if [ -z "$1" ]
     then
-        echo "Usage: inv <dir>"
+        echo "Usage: wshs <dir>"
         exit 1
 fi
-DIR=$HOME/.inv-cli
+DIR=$HOME/.template-website-hs
 DEST=$1
 mkdir -p $DEST && \
 mkdir -p $DEST/style && \
