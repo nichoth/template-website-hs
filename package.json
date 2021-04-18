@@ -7,7 +7,7 @@
   },
   "main": "template-website.sh",
   "scripts": {
-    "postinstall": "mkdir -p $HOME/.template-website-hs && mkdir -p $HOME/.template-website-hs/admin && mkdir -p $HOME/.template-website-hs/style cp -f ./src/* $HOME/.template-website-hs",
+    "postinstall": "mkdir -p $HOME/.template-website-hs && mkdir -p $HOME/.template-website-hs/admin && mkdir -p $HOME/.template-website-hs/style && cp -f ./src/* $HOME/.template-website-hs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
