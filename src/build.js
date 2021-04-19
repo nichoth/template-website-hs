@@ -52,7 +52,7 @@ function buildThem (inputDir, outputDir, templateFile, makeHs) {
             })
         })
 
-        hs = hyperstream({
+        var hs = hyperstream({
             '#content': {
                 _appendHtml: `<ul class="main-nav">
                     ${names.map(name => `<li>
